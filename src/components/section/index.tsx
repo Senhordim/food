@@ -2,7 +2,7 @@ import { View, Text, Pressable } from 'react-native'
 
 interface SectionProps {
     name: string;
-    size: "text-lg" | "text-x1" | "text-2xl";
+    size: "text-lg" | "text-xl" | "text-2xl";
     label: string;
     action: () => void;
 }

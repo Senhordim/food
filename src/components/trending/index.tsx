@@ -19,9 +19,8 @@ export function TrendingFoods() {
 
     useEffect(() => {
         async function getFoods() {
-            const response = await fetch('https://calm-ties-show.loca.lt/foods')
+            const response = await fetch('https://afraid-tables-ask.loca.lt/foods')
             const data = await response.json()
-            console.log(data)
             setFoods(data)
         }
         getFoods()
